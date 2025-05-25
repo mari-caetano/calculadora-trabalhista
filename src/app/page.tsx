@@ -185,8 +185,14 @@ export default function Home() {
           exatos.
         </p>
         <p>
-          Consulte o advogado trabalhista <a href="">Mateus Caetano Pereira</a> para informações
-          detalhadas.
+          Consulte o advogado trabalhista{" "}
+          <a
+            href="https://www.example.com"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            Mateus Caetano Pereira
+          </a>{" "}
+          para informações detalhadas.
         </p>
         <p>
           As leis trabalhistas podem mudar, verifique sempre as atualizações
