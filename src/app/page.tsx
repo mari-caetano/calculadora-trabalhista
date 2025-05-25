@@ -9,8 +9,8 @@ export default function Home() {
   const [formaDemissao, setFormaDemissao] = useState("semJustaCausa");
   const [avisoPrevio, setAvisoPrevio] = useState(false);
   const [feriasVencidas, setFeriasVencidas] = useState(false);
-  const [resultado, setResultado] = useState(null);
-  const [explicacoes, setExplicacoes] = useState(null);
+  const [resultado, setResultado] = useState<string | null>(null);
+  const [explicacoes, setExplicacoes] = useState<string | null>(null);
 
   const calcularRescisao = () => {
     const salarioNum = parseFloat(salario);
