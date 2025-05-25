@@ -185,7 +185,7 @@ export default function Home() {
           exatos.
         </p>
         <p>
-          Recomenda-se consultar um advogado trabalhista para informações
+          Consulte o advogado trabalhista <a href="">Mateus Caetano Pereira</a> para informações
           detalhadas.
         </p>
         <p>
