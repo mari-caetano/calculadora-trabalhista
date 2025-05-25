@@ -36,7 +36,7 @@ export default function Home() {
     let valorRescisao = 0;
     let multaFgts = 0;
     let valorFerias = 0;
-    let valorAvisoPrevio = avisoPrevio ? salarioNum : 0;
+    const valorAvisoPrevio = avisoPrevio ? salarioNum : 0;
 
     if (formaDemissao === "semJustaCausa") {
       valorRescisao = salarioNum * tempoTrabalhoMeses * 0.5;
